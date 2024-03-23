@@ -19,11 +19,4 @@ export default function App() {
     return <View style={styles.container}>{renderComponent()}</View>;
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    alignItems: 'center',
-    justifyContent: 'center',
-    marginTop:50
-  },
-});
+
