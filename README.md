@@ -1,7 +1,7 @@
 # apitask
 I'm using fetch api for post email and password field data to api for the login.
 I create two components in component folder
-#1. login.js code
+1. login.js code<br />
 import { StatusBar } from 'expo-status-bar';
 import React,{useState, useEffect} from 'react';
 import { StyleSheet, Text, TextInput, View, Dimensions, TouchableOpacity } from 'react-native';
@@ -98,7 +98,7 @@ const styles = StyleSheet.create({
 });
 
 
-#2. welcome.js code
+2. welcome.js code <br />
 import { StatusBar } from 'expo-status-bar';
 import React,{useState} from 'react';
 import { StyleSheet, Text, TextInput, View, Dimensions, TouchableOpacity } from 'react-native';
@@ -148,7 +148,7 @@ const styles = StyleSheet.create({
   }
 });
 
-#and this is app.js code
+and this is app.js code <br />
 import { StatusBar } from 'expo-status-bar';
 import React,{useState, useEffect} from 'react';
 import { StyleSheet, Text, TextInput, View, Dimensions, TouchableOpacity } from 'react-native';
