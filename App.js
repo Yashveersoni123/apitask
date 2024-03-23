@@ -16,7 +16,7 @@ export default function App() {
         return <Login message={handleDataFromChild} />;
       }
     };
-    return <View style={styles.container}>{renderComponent()}</View>;
+    return renderComponent()
 }
 
 
